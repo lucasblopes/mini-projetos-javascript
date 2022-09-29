@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #007EA7;
+    font: normal 15pt Arial;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #FAA613;
+    padding: 8px 15px;
+    margin: -15px;
+    border-radius: 20px 20px 0px 0px;
+}
+main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    min-width: 370px;
+    max-width: 500;
+    min-height: 400px;
+    margin: 0px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.123);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    display: flex; /*Deixa um elemento abaixo do outro*/
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div > p {
+    padding: 5px;
+    text-align: left;
+}
+
+#dados {
+    text-align: center;
+    color:black;
+}
+div > p > input {
+    border: 1px black solid;
+    border-radius: 3px;
+    height: 20px;
+    padding-left: 3px;
+    position: absolute;
+    left: 90px;
+}
+
+#botao {
+    color: white;
+    font-size: 1.2em;
+    padding: 2px 100px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FAA613;
+    border: 1px #FBBB4B solid;
+    border-radius: 5px;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: #FBBB4B;
+}
+
+#res {
+    max-width: 370px;
+    
+}
+.footer > p {
+    font-size: 0.9em;
+    text-align: center;
+}
